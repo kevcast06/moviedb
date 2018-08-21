@@ -1,0 +1,75 @@
+.header{
+
+  flex-direction: row;
+  display: flex;
+}
+.logo {
+
+  float:left;
+  padding: 25px;
+
+}
+.tab-side {
+
+  flex: 1;
+}
+.tab-item {
+
+  font-family: 'Ubuntu', sans-serif;
+  float: right;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 10%;
+  cursor: pointer;
+}
+.tab-item-right{
+  padding-right: 50px;
+}
+.tab-item:hover {
+  color: blue;
+  border-bottom-color: blue;
+  border-bottom-width: 2px
+}
+.search{
+  margin-top: 40px;
+  flex-direction: row;
+  display: flex;
+  background-color:#f3f6f7;;
+  height: 40px;
+}
+.input-search{
+
+  width: 100%;
+  background-color: #f3f6f7;
+  border: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+.input-logo{
+  padding: 10px;
+}
+.announce{
+  flex-direction: row;
+  display: flex;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.filter{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.filter-select{
+
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Ubuntu', sans-serif;
+}
+.poss{
+  
+}
